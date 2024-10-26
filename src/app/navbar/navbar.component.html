@@ -1,0 +1,19 @@
+<nav>
+    <div class="circle-menu">
+      <div class="menu-left-icon">
+        <!-- Aquí va el ícono a la izquierda -->
+        <img src="../../assets/icon/icon-pollo.png" alt="Icono" class="left-icon" />
+      </div>
+  
+      <ul>
+        <li><a routerLink="/">Inicio</a></li>
+        <li><a routerLink="/products">Productos</a></li>
+        <li><a routerLink="/contact">Contáctanos</a></li>
+      </ul>
+  
+      <div id="cart-icon">
+        <a routerLink="/cart">🛒 <span id="cart-count">{{ cartItemCount }}</span></a>
+      </div>
+    </div>
+  </nav>
+  

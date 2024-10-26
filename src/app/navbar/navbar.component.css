@@ -1,0 +1,64 @@
+/* Styles for navbar */
+.circle-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    border: 3px solid #000;
+    border-radius: 50px;
+    padding: 10px 20px;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+  }
+  
+  /* Icono a la izquierda */
+  .menu-left-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* Centrar las opciones del menú */
+  .circle-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+  }
+  
+  .circle-menu ul li {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .circle-menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+  }
+  
+  /* Carrito a la derecha */
+  #cart-icon {
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  #cart-count {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-left: 5px;
+  }
+  
